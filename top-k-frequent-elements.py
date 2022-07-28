@@ -2,6 +2,9 @@
     My Solution: Create a dictionary to track the number of occurences for each unique number. 
     Create a list of lists with size equal to the size of nums, where each list's index represents the number of occurences, and inside each list are the unique numbers from nums 
     that appear as many times as the index. 
+
+    TC: O(n)
+    SC: O(n)
 '''
 
 class Solution(object):

@@ -12,3 +12,6 @@ class Solution(object):
                 return True
             appeared.append(i)
         return False
+
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        return not (sorted(list(set(nums))) == sorted(nums))
